@@ -25,7 +25,7 @@ public class NBody {
     return allPlanets;
   }
 
-  public static String backgroundImage = "./images/starfield.jpg";
+  private static String backgroundImage = "./images/starfield.jpg";
 
   public static void main(String[] args) {
     double T = Double.parseDouble(args[0]);
@@ -61,7 +61,7 @@ public class NBody {
 
       StdDraw.enableDoubleBuffering();
       StdDraw.pause(10);
-      t += 10;
+      t += dt;
     }
 
     StdOut.printf("%d\n", allPlanets.length);
