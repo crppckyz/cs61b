@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class trial {
+public class trial {
+  public dog(a)
+
 }
